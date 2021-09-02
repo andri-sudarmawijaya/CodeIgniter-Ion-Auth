@@ -3,7 +3,7 @@
     "description": "Simple and Lightweight Auth System for CodeIgniter",
     "type": "library",
     "license": "MIT",
-    "homepage": "http://benedmunds.com/ion_auth",
+    "homepage": "http://andri-sudarmawijaya.com/ion_auth",
     "authors": [
         {
             "name": "Ben EDMUNDS"
@@ -15,16 +15,16 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:benedmunds/CodeIgniter-Ion-Auth.git"
+            "url": "git@github.com:andri-sudarmawijaya/codeigniter-ion-auth.git"
         }
     ],
     "scripts": {
         "install-ion-auth": [
-            "[ -f application/config/ion_auth.php ] || cp -p vendor/benedmunds/codeigniter-ion-auth/config/ion_auth.php application/config/",
-            "[ -f application/controllers/Auth.php ] || cp -p vendor/benedmunds/codeigniter-ion-auth/controllers/Auth.php application/controllers/",
-            "cp -p vendor/benedmunds/codeigniter-ion-auth/libraries/Ion_auth.php application/libraries/",
-            "cp -p vendor/benedmunds/codeigniter-ion-auth/models/Ion_auth_model.php application/models/",
-            "[ -d application/views/auth ] || cp -pr vendor/benedmunds/codeigniter-ion-auth/views/* application/views/"
+            "[ -f application/config/ion_auth.php ] || cp -p vendor/andri-sudarmawijaya/codeigniter-ion-auth/config/ion_auth.php application/config/",
+            "[ -f application/controllers/Auth.php ] || cp -p vendor/andri-sudarmawijaya/codeigniter-ion-auth/controllers/Auth.php application/controllers/",
+            "cp -p vendor/andri-sudarmawijaya/codeigniter-ion-auth/libraries/Ion_auth.php application/libraries/",
+            "cp -p vendor/andri-sudarmawijaya/codeigniter-ion-auth/models/Ion_auth_model.php application/models/",
+            "[ -d application/views/auth ] || cp -pr vendor/andri-sudarmawijaya/codeigniter-ion-auth/views/* application/views/"
         ],
         "post-install-cmd": [
             "@install-ion-auth"
